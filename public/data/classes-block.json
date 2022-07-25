@@ -1,0 +1,42 @@
+[
+  {
+    "img": "foto1-s3.jpg",
+    "number": "12 Videos",
+    "title": "Technology",
+    "subtitle": "Digital Marketing Strategy",
+    "text": "This course aims to give you deeper understanding of core processes ...",
+    "avatar": "avatar1-s3.jpg",
+    "name": "Joey Piere",
+    "position": "Mentor"
+  },
+  {
+    "img": "foto2-s3.jpg",
+    "number": "7 Videos",
+    "title": "Design",
+    "subtitle": "Figma Fundamental",
+    "text": "These lessons and exercises will help you start designing with Figma ...",
+    "avatar": "avatar2-s3.jpg",
+    "name": "Araya Sheila",
+    "position": "Mentor"
+  },
+  {
+    "img": "foto3-s3.jpg",
+    "number": "10 Videos",
+    "title": "Coding",
+    "subtitle": "HTML Fundamental",
+    "text": "Well organized and easy to make you understand tutorials with lots of ...",
+    "avatar": "avatar3-s3.jpg",
+    "name": "Ellisa Ruth",
+    "position": "Mentor"
+  },
+  {
+    "img": "foto4-s3.jpg",
+    "number": "16 Videos",
+    "title": "Coding",
+    "subtitle": "Android App Development",
+    "text": "Take your Android coding skills to the next level, advanced Android app ...",
+    "avatar": "avatar4-s3.jpg",
+    "name": "Wendy Troye",
+    "position": "Mentor"
+  }
+]

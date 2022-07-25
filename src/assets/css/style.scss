@@ -1,0 +1,77 @@
+$background-color: #171836;
+$background-color-element: #282B57;
+$headings-text: rgba(255, 255, 255, 0.8);
+$headings-text2: rgba(255, 255, 255, 0.7);
+$headings-text3: rgba(59, 245, 189, 1);
+$text-color: rgba(255, 255, 255, 0.4);
+$text-color2: rgba(255, 255, 255, 0.6);
+$text-color3: rgba(209, 209, 215, 1);
+$text-color4: rgba(143, 145, 208, 1);
+$text-button: rgba(255, 255, 255, 1);
+$highlighting-elements: rgba(245, 68, 59, 1);
+$highlighting-elements2: rgba(41, 43, 86, 1);
+$highlighting-elements3: rgba(151, 153, 206, 1);
+$highlighting-elements4: #212145;
+$highlighting-elements5: #4c4567;
+$highlighting-elements6: rgba(255, 255, 255, 0.2);
+$icon-color: #ACABBF;
+$focus-color: #008ABF;
+$border-color: rgba(154, 156, 203, 0.6);
+///////////////////////////////////////////
+@mixin hideTapHighlightColor() {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+@mixin hardwareAccel() {
+  transform: translateZ(0);
+}
+@mixin improveAntiAlias() {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+///////////////////////--styles for the whole project--///////
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: Inter, sans-serif;
+}
+
+////////////////--2d animation--//////////////////////////
+@keyframes pulse {
+  25% {
+    transform: scale(1.1);
+  }
+
+  75% {
+    transform: scale(.9);
+  }
+}
+
+.pulse {
+  display: inline-block;
+  @include hideTapHighlightColor();
+  @include hardwareAccel();
+  @include improveAntiAlias();
+
+  &:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+}
+
+
+
+
+
+
+
+
+
+

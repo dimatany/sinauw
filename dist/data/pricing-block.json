@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Free",
+    "img": "star-icon.svg",
+    "currency": "$",
+    "price": "0",
+    "period": "/ month",
+    "condition1": "Free e-book for every class",
+    "condition2": "Materials update every day",
+    "condition3": "Free download material videos",
+    "condition4": "Unlock 5 material videos",
+    "condition5": "",
+    "condition6": "",
+    "condition7": "",
+    "submit1": "Your Current Package"
+  },
+  {
+    "title": "Express",
+    "img": "key-icon.svg",
+    "currency": "$",
+    "price": "75",
+    "period": "/ month",
+    "condition1": "Free e-book for every class",
+    "condition2": "Materials update every day",
+    "condition3": "Free download material videos",
+    "condition4": "Meeting 2 times a week",
+    "condition5": "Unlock 15 material videos",
+    "condition6": "",
+    "condition7": "",
+    "submit1": "Buy Express"
+  },
+  {
+    "title": "Premium",
+    "img": "corona-icon.svg",
+    "currency": "$",
+    "price": "115",
+    "period": "/ month",
+    "condition1": "Free e-book for every class",
+    "condition2": "Materials update every day",
+    "condition3": "Free download material videos",
+    "condition4": "Private chat with mentor",
+    "condition5": "Meeting 3 times a week",
+    "condition6": "Unlock up to 30 material videos",
+    "condition7": "Unlimited saved class",
+    "submit1": "Buy Premium"
+  }
+]
