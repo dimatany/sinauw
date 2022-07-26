@@ -200,7 +200,7 @@ $border-color: rgba(154, 156, 203, 0.6);
 }
 .modal-vue .modal {
   position: absolute;
-  max-width: 300px;
+  width: 300px;
   z-index: 9999;
   top: 80%;
   left: 50%;

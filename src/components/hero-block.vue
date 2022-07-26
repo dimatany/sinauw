@@ -58,9 +58,7 @@ export default {
 };
 </script>
 
-
 <style lang="scss" scoped>
-
 $background-color: #171836;
 $background-color-element: #282B57;
 $headings-text: rgba(255, 255, 255, 0.8);
@@ -450,7 +448,7 @@ $border-color: rgba(154, 156, 203, 0.6);
       position: relative;
       margin: 0 auto 0;
       img {
-        width: 280px;
+        width: 300px;
       }
       .hero-section-avatar-position {
         img:nth-child(1){
