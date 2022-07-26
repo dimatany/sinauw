@@ -110,7 +110,6 @@ $headings: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 16.94px;
   height: 80px;
-
     .header-block-left-logo {
     }
     .header-block-left-navigation {
@@ -170,11 +169,12 @@ $headings: rgba(255, 255, 255, 0.6);
     margin-top: 40px;
   }
   li {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
   }
   a {
     color: $background-color;
     font-size: 16px;
+    text-shadow:5px 5px 5px rgba(143, 145, 208, 1);
   }
 }
 .burger {
@@ -191,16 +191,22 @@ $headings: rgba(255, 255, 255, 0.6);
       display: block;
     }
     .header-block-right {
-     // display: none; ????
+     display: none;
     }
   }
-  .header .header-block-right .header-block-right-button {
-    width: 90px;
-    height: 35px;
-    background-color: #f5443b;
-    color: white;
+  .header-block-right-mobile {
+    padding: 10px 30px;
+    width: 105px;
+    text-align: center;
+    background-color: $highlighting-elements;
+    color: $text-button;
     border-radius: 6px;
     border: 1px solid transparent;
+    &:hover {
+      border: 1px solid $focus-color;
+      box-shadow:inset 0 0 15px 3px rgba(17, 37, 93, 1);
+      background:linear-gradient(rgba(208, 2, 27, 1), rgba(208, 2, 27, 1));
+    }
   }
 }
 </style>

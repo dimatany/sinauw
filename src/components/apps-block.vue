@@ -543,7 +543,7 @@ $border-color: rgba(154, 156, 203, 0.6);
       .apps-info-brands {
         display: flex;
         flex-wrap: wrap;
-        width: 300px;
+        width: 290px;
         .apps-info-brands-google {
           margin: 0 auto;
           img {
@@ -564,7 +564,7 @@ $border-color: rgba(154, 156, 203, 0.6);
       width: 300px;
       .apps-visual-card {
         width: 300px;
-        margin-left: 12%;
+        margin-left: 11%;
         .apps-visual-card-header {
           .apps-visual-card-header-avatar1 {
             padding: 4px;
@@ -663,8 +663,8 @@ $border-color: rgba(154, 156, 203, 0.6);
           }
           .apps-visual-card-body-ref {
             top: 146%;
-            left: -6%;
-            width: 290px;
+            left: -4%;
+            width: 280px;
             .apps-visual-ref-course {
               width: 130px;
               height: 90px;
