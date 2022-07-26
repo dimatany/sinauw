@@ -153,7 +153,7 @@ $headings: rgba(255, 255, 255, 0.6);
   display: block;
   transition: all .3s ease;
   transform: translateX(-110%);
-  z-index: 999999;
+  //z-index: 9999;
   &_heading {
     padding: 15px 0 20px 0;
     display: flex;
@@ -180,7 +180,6 @@ $headings: rgba(255, 255, 255, 0.6);
 }
 .burger {
   display: none;
-
 }
 
 @media screen and (max-width: 768px){
