@@ -450,7 +450,7 @@ $border-color: rgba(154, 156, 203, 0.6);
       position: relative;
       margin: 0 auto 0;
       img {
-        width: 320px;
+        width: 280px;
       }
       .hero-section-avatar-position {
         img:nth-child(1){

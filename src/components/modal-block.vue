@@ -200,9 +200,9 @@ $border-color: rgba(154, 156, 203, 0.6);
 }
 .modal-vue .modal {
   position: absolute;
-  width: 300px;
+  max-width: 300px;
   z-index: 9999;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translateX(-50%);
   margin: 0 auto;
@@ -269,7 +269,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  padding: 7px;
+  padding: 10px;
   font-size: 14px;
   border-radius: 20px;
   width: 100px;
@@ -293,5 +293,13 @@ h3 {
   width: 100%;
   max-width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .modal-vue .modal {
+    top: 10%;
+    left: 50%;
+  }
+}
+
 
 </style>

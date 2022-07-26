@@ -497,6 +497,7 @@ $border-color: rgba(154, 156, 203, 0.6);
         margin-left: 30%;
         .apps-visual-card-header {
           .apps-visual-card-header-avatar1 {
+            display: none;
             padding: 6px;
             top: 20%;
             left: -38%;
@@ -532,7 +533,6 @@ $border-color: rgba(154, 156, 203, 0.6);
           }
         }
       }
-
     }
   }
 }
