@@ -111,7 +111,8 @@ $border-color: rgba(154, 156, 203, 0.6);
   overflow: hidden;
   animation: hue 3s infinite alternate;
   animation-delay: 0s;
-
+  -webkit-animation: hue 3s infinite alternate;
+  -webkit-animation-delay: 0s;
   .apps-info {
     padding-top: 16px;
     padding-left: 31px;
@@ -350,21 +351,30 @@ $border-color: rgba(154, 156, 203, 0.6);
   -webkit-filter: blur(3rem);
   filter: blur(3rem);
   z-index: -1;
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
   transform:scale(2)
 }
 @-webkit-keyframes hue {
   from {
+    -webkit-filter: hue-rotate(-30deg);
     filter:hue-rotate(-30deg)
   }
+
   to {
+    -webkit-filter: hue-rotate(10deg);
     filter:hue-rotate(10deg)
   }
 }
+
 @keyframes hue {
   from {
+    -webkit-filter: hue-rotate(-30deg);
     filter:hue-rotate(-30deg)
   }
+
   to {
+    -webkit-filter: hue-rotate(10deg);
     filter:hue-rotate(10deg)
   }
 }
