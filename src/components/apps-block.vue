@@ -369,7 +369,6 @@ $border-color: rgba(154, 156, 203, 0.6);
   }
 }
 
-
 @media screen and (max-width: 1360px){
   .apps .apps-info h3 {
     font-size: 47px;
