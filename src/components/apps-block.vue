@@ -339,6 +339,19 @@ $border-color: rgba(154, 156, 203, 0.6);
 
   }
 }
+.apps::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-filter: blur(3rem);
+  filter: blur(3rem);
+  z-index: -1;
+  transform:scale(2)
+}
 @-webkit-keyframes hue {
   from {
     filter:hue-rotate(-30deg)
@@ -355,19 +368,7 @@ $border-color: rgba(154, 156, 203, 0.6);
     filter:hue-rotate(10deg)
   }
 }
-.apps::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: inherit;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-filter: blur(3rem);
-  filter: blur(3rem);
-  z-index: -1;
-  transform:scale(2)
-}
+
 
 @media screen and (max-width: 1360px){
   .apps .apps-info h3 {
