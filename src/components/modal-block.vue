@@ -195,8 +195,6 @@ $border-color: rgba(154, 156, 203, 0.6);
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-color: rgba(151, 153, 206, .4);
 }
 .modal-vue .modal {
   position: absolute;
@@ -300,6 +298,4 @@ h3 {
     left: 50%;
   }
 }
-
-
 </style>

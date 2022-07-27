@@ -153,7 +153,6 @@ $headings: rgba(255, 255, 255, 0.6);
   display: block;
   transition: all .3s ease;
   transform: translateX(-110%);
-  //z-index: 9999;
   &_heading {
     padding: 15px 0 20px 0;
     display: flex;
@@ -162,6 +161,8 @@ $headings: rgba(255, 255, 255, 0.6);
   }
   &.active {
     transform: translateX(0);
+    overflow: auto;
+    background-color: rgba(151, 153, 206, .4);
   }
   .header-block-left-logo {
     margin-top: 20px;
