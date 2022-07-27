@@ -5,7 +5,7 @@
     <!-- modal -->
     <div class="modal">
       <slot name="body">
-        <button class="close" @click="$emit('close')">x</button>
+        <button class="close" @click="$emit('close')"><img src="../assets/img/s0/clear.svg" alt=""></button>
       </slot>
       <div class="">
         <div class="">
@@ -214,6 +214,10 @@ $border-color: rgba(154, 156, 203, 0.6);
   top: 15px;
   right: 20px;
   color: $highlighting-elements;
+  img {
+    width: 17px;
+    height: auto;
+  }
 }
 .card {
   position: relative;
