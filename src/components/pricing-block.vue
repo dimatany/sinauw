@@ -383,6 +383,8 @@ $border-color: rgba(154, 156, 203, 0.6);
           .pricing-block-item-header-stick {
             img {
               height: 36px;
+              padding-top: 12px;
+              padding-left: 12px;
             }
           }
           .pricing-block-item-header-tariffs {

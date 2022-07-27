@@ -298,7 +298,7 @@ h3 {
 
 @media screen and (max-width: 768px) {
   .modal-vue .modal {
-    top: 10%;
+    top: 20%;
     left: 50%;
   }
 }

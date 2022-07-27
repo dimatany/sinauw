@@ -103,8 +103,15 @@ $border-color: rgba(154, 156, 203, 0.6);
   display: flex;
   justify-content: space-between;
   padding: 70px 137px 70px 70px;
-  background-color: $highlighting-elements4;
   border-radius: 40px;
+  //background-color: $highlighting-elements4;
+  background-image: url("@/assets/img/s6/wp.jpg");
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  animation: hue 3s infinite alternate;
+  animation-delay: 0s;
+
   .apps-info {
     padding-top: 16px;
     padding-left: 31px;
@@ -331,6 +338,35 @@ $border-color: rgba(154, 156, 203, 0.6);
     }
 
   }
+}
+@-webkit-keyframes hue {
+  from {
+    filter:hue-rotate(-30deg)
+  }
+  to {
+    filter:hue-rotate(10deg)
+  }
+}
+@keyframes hue {
+  from {
+    filter:hue-rotate(-30deg)
+  }
+  to {
+    filter:hue-rotate(10deg)
+  }
+}
+.apps::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-filter: blur(3rem);
+  filter: blur(3rem);
+  z-index: -1;
+  transform:scale(2)
 }
 
 @media screen and (max-width: 1360px){
