@@ -95,6 +95,10 @@ $icon-color: #ACABBF;
 $focus-color: #008ABF;
 $border-color: rgba(154, 156, 203, 0.6);
 
+
+
+
+
 .apps-block-all {
   padding-top: 87px;
   padding-bottom: 70px;
@@ -105,11 +109,11 @@ $border-color: rgba(154, 156, 203, 0.6);
   padding: 70px 137px 70px 70px;
   border-radius: 40px;
   //background-color: $highlighting-elements4;
-  background-image: url("@/assets/img/s6/wp.jpg");
+  background: url("@/assets/img/s6/wp.jpg") center/cover;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  animation: hue 3s infinite alternate;
+  animation: hue 10s infinite alternate;
   animation-delay: 0s;
   .apps-info {
     padding-top: 16px;
@@ -346,19 +350,21 @@ $border-color: rgba(154, 156, 203, 0.6);
   position: absolute;
   top: 0;
   left: 0;
-  filter: blur(3rem);
+  filter: blur(2rem);
   z-index: -1;
-  transform:scale(2)
+  transform:scale(1.5)
 }
-@keyframes hue {
-  from {
-    filter:hue-rotate(-30deg)
-  }
 
-  to {
-    filter:hue-rotate(10deg)
+@keyframes hue {
+  from{
+    filter: hue-rotate(0);
+  }
+  to{
+    filter: hue-rotate(360deg);
   }
 }
+
+
 
 @media screen and (max-width: 1360px){
   .apps .apps-info h3 {
