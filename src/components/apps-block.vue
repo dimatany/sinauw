@@ -73,7 +73,6 @@ export default {
 };
 </script>
 
-
 <style lang="scss" scoped>
 $background-color: #171836;
 $background-color-element: #282B57;
@@ -95,10 +94,6 @@ $icon-color: #ACABBF;
 $focus-color: #008ABF;
 $border-color: rgba(154, 156, 203, 0.6);
 
-
-
-
-
 .apps-block-all {
   padding-top: 87px;
   padding-bottom: 70px;
@@ -113,8 +108,7 @@ $border-color: rgba(154, 156, 203, 0.6);
   position: relative;
   z-index: 1;
   overflow: hidden;
-  animation: hue 10s infinite alternate;
-  animation-delay: 0s;
+  animation: hue 15s infinite alternate;
   .apps-info {
     padding-top: 16px;
     padding-left: 31px;
@@ -350,9 +344,9 @@ $border-color: rgba(154, 156, 203, 0.6);
   position: absolute;
   top: 0;
   left: 0;
-  filter: blur(2rem);
+  filter: blur(1.5rem);
   z-index: -1;
-  transform:scale(1.5)
+  transform:scale(1.15)
 }
 
 @keyframes hue {
@@ -363,8 +357,6 @@ $border-color: rgba(154, 156, 203, 0.6);
     filter: hue-rotate(360deg);
   }
 }
-
-
 
 @media screen and (max-width: 1360px){
   .apps .apps-info h3 {
