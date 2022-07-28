@@ -103,12 +103,11 @@ $border-color: rgba(154, 156, 203, 0.6);
   justify-content: space-between;
   padding: 70px 137px 70px 70px;
   border-radius: 40px;
-  //background-color: $highlighting-elements4;
   background: url("@/assets/img/s6/wp.jpg") center/cover;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  animation: hue 15s infinite alternate;
+  animation: hue 15s infinite alternate;//реверсивная цикличная и бесконечная анимация
   .apps-info {
     padding-top: 16px;
     padding-left: 31px;
@@ -344,14 +343,14 @@ $border-color: rgba(154, 156, 203, 0.6);
   position: absolute;
   top: 0;
   left: 0;
-  filter: blur(1.5rem);
+  filter: blur(1.5rem);//задаёт размытие по Гауссу изображений
   z-index: -1;
   transform:scale(1.15)
 }
 
 @keyframes hue {
   from{
-    filter: hue-rotate(0);
+    filter: hue-rotate(0);//изменяет цветность изображения за счёт поворота оттенка на цветовом круге.
   }
   to{
     filter: hue-rotate(360deg);
